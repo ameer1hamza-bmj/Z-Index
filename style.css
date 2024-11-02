@@ -25,6 +25,11 @@ body{
 color: white;
 font-family: sans-serif;
 font-size: 44px;
+background: rgb(255,0,0);
+background: linear-gradient(90deg, rgb(242, 255, 0) 0%, rgb(0, 255, 17) 46%, rgb(255, 149, 0) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 .zindex{
     height: 400px;

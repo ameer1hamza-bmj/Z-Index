@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: url(https://images.pexels.com/photos/17651137/pexels-photo-17651137/free-photo-of-rumex.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    overflow: hidden;
+}
+.heading{
+    height: 80px;
+    width: 100%;  
+    position: relative;
+    top: 200px;
+}
+.heading h1{
+    position: absolute;
+    left: 25%;
+    top: 20%;
+color: white;
+font-family: sans-serif;
+font-size: 44px;
+}
+.zindex{
+    height: 400px;
+    width: 100%;
+top: 200px;
+    position: relative;
+}
+.first{
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    z-index: 0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+box-sizing:5px 5px 15px black;
+}
+.second{
+    height: 200px;
+    width: 250px;
+    background-color: yellow;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+  
+display:flex;
+align-items:center;
+justify-content:center;
+box-sizing:5px 5px 15px black;
+}
+.three{
+    height: 200px;
+    width: 250px;
+    background-color: blue;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+   
+display:flex;
+align-items:center;
+justify-content:center;
+box-sizing:5px 5px 15px black;
+}
+.four{
+    height: 200px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+box-sizing:5px 5px 15px black;
+
+}
+.five{
+    height: 200px;
+    width: 250px;
+    background-color: green;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+  
+display:flex;
+align-items:center;
+justify-content:center;
+box-sizing:5px 5px 15px black;
+
+}
+h1{
+color: black;
+}
